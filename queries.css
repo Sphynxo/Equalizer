@@ -1,0 +1,155 @@
+@media (max-width: 50em) {
+    /* html {
+        font-size: 50%;
+    } */
+
+    body {
+        background-image: url(/IMG/bg-main-tablet.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .header {
+        padding: 6.2rem 4rem;
+    }
+
+    .pattern-one-box {
+        width: 26.6rem;
+        height: 40rem;
+    }
+
+    .pattern-one {
+        width: 100%;
+    }
+
+    .main-description {
+        margin: 3.2rem 4rem;
+        max-width: 92%;
+    }
+
+    .main-heading {
+        font-size: 6.4rem;
+        line-height: 6.4rem;
+    }
+
+    .main-text {
+        font-size: 1.8rem;
+        margin-top: 2.8rem;
+        line-height: 2.8rem;
+    }
+
+    .offer {
+        width: 92%;
+        margin: 24rem auto;
+    }
+
+    .app-screen-box {
+        width: 27rem;
+        top: -14rem;
+        left: 6.4rem;
+    }
+
+    .pattern-two-box {
+        width: 28rem;
+        left: 22rem;
+        top: -3.2rem;
+    }
+
+    .offer-price-box {
+        max-width: 40rem;
+        z-index: 3;
+    }
+
+    .price-heading {
+        font-size: 3.2rem;
+    }
+
+    .price-text {
+        font-size: 1.8rem;
+        margin-top: 1.2rem;
+    }
+
+    .footer {
+        padding: 8rem 4rem;
+        gap: 24rem;
+    }
+
+    .footer-right {
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+
+    .social {
+        align-items: center;
+    }
+}
+
+@media (max-width: 30em) {
+    html {
+        font-size: 50%;
+    }
+
+    body {
+        background-image: url(IMG/bg-main-mobile.png);
+        background-position-x: 20rem;
+        background-position-y: -20rem;
+        background-repeat: no-repeat;
+    }
+
+    .pattern-one-box {
+        display: none;
+    }
+
+    .main-description {
+        margin-top: 2.4rem;
+        max-width: 92%;
+    }
+
+    .main-heading {
+        font-size: 4rem;
+        line-height: 4.8rem;
+        letter-spacing: -0.45px;
+    }
+
+    .main-text {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        margin-top: 2rem;
+    }
+
+    .offer {
+        width: 100%;
+        margin-bottom: 48rem;
+    }
+
+    .app-screen-box {
+        max-width: 24rem;
+        left: 50%;
+        margin-left: -12rem;
+        top: -9.8rem;
+        /* display: none; */
+    }
+
+    .pattern-two-box {
+        width: 32rem;
+        left: 50%;
+        margin-left: -16rem;
+        top: 0;
+    }
+
+    .offer-price-box {
+        left: 0;
+        max-width: 100%;
+        right: 0;
+        top: 44rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 6.4rem;
+    }
+
+    .footer-right {
+        max-width: 92%;
+    }
+}

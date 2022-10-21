@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'IBM Plex Sans';
+    background-image: url(../IMG/bg-main-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header {
+    padding: 6.2rem 16.6rem;
+}
+
+.logo {
+    width: 14.6rem;
+    height: 3.2rem;
+}
+
+.pattern-one-box {
+    width: 31.2rem;
+    height: 46.8rem;
+    position: absolute;
+    right: 0;
+    top: -4rem;
+}
+
+.pattern-one {
+    width: 100%;
+}
+
+.main-description {
+    margin: 6.2rem 16.6rem;
+    max-width: 86rem;
+}
+
+.main-heading {
+    font-size: 8.8rem;
+    font-weight: 700;
+    line-height: 8.8rem;
+    letter-spacing: -1px;
+    color: #191826;
+}
+
+.main-text {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    margin-top: 4rem;
+    color: #191826;
+}
+
+.offer {
+    width: 78%;
+    height: 60rem;
+    background-color: #191826;
+    margin: 32rem auto;
+    position: relative;
+    margin-bottom: 16rem;
+}
+
+.app-screen-box {
+    width: 31.2rem;
+    position: absolute;
+    left: 10.2rem;
+    top: -21.2rem;
+    z-index: 2;
+}
+
+.app-illustration {
+    width: 100%;
+}
+
+.pattern-two-box {
+    width: 31.2rem;
+    position: absolute;
+    left: 33.6rem;
+    top: -4rem;
+    z-index: 1;
+}
+
+.pattern-two {
+    width: 100%;
+}
+
+.offer-price-box {
+    max-width: 44rem;
+    background-color: #FA7453;
+    padding: 5.6rem;
+    border-radius: 1.2rem;
+    position: absolute;
+    right: 9rem;
+    top: 9rem;
+}
+
+.price-heading {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FCFAF9;
+}
+
+.price-text {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    color: #FCFAF9;
+    margin-top: 2.2rem;
+}
+
+.price-price span {
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #FCFAF9;
+}
+
+.price-price {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FCFAF9;
+    letter-spacing: -0.2px;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 4rem;
+}
+
+.ios-btn,
+.android-btn {
+    background-color: #191826;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.6rem;
+    padding: 1.6rem 0;
+    border-radius: 1.2rem;
+}
+
+.ios-btn:hover {
+    background-color: #66E2DC;
+}
+
+.android-btn:hover {
+    background-color: #FFB964;
+}
+
+.android-btn {
+    background-color: #FCFAF9;
+    margin-top: 1.6rem;
+}
+
+.ios-btn p,
+.android-btn p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FCFAF9;
+}
+
+.android-btn p {
+    color: #191826;
+}
+
+.footer {
+    width: 100%;
+    padding: 8rem 16.6rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 34rem;
+}
+
+.footer-right {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #191826;
+    gap: 13.6rem;
+}
+
+.social {
+    display: flex;
+    gap: 2rem;
+}
+
+.social a {
+    font-size: 2rem;
+    color: #191826;
+}
+
+.social a:hover {
+    color: #FA7453;
+}
